@@ -1,0 +1,206 @@
+You are an elite AI software engineer, senior frontend developer, machine learning architect, UI/UX designer, TensorFlow expert, Streamlit expert, React engineer, and startup product designer.
+
+Your task is to build a modern AI-powered crop disease detection web application called “Thiru Mkulima AI” entirely inside Replit.
+
+The application design must feel visually similar to ChatGPT:
+- Minimalistic
+- Clean
+- Modern
+- AI-focused
+- Smooth animations
+- Dark/light modern aesthetic
+- Centered interface
+- Fast and responsive
+- Mobile friendly
+- Professional startup-level UI
+
+The moment the app opens, it should immediately display the disease detection interface without unnecessary landing pages.
+
+The app should feel like an intelligent AI assistant for farmers.
+
+The interface must include:
+- Large modern title:
+  “Thiru Mkulima AI”
+- Subtitle:
+  “AI-powered crop disease detection system”
+- Upload image area in the center
+- Drag and drop image upload
+- Camera upload support
+- Smooth hover effects
+- AI-style loading animation
+- Animated progress indicators
+- Confidence score bars
+- Result cards
+- Smooth transitions
+- Modern typography
+- Rounded cards
+- Responsive layout
+- Beautiful spacing
+- Professional color palette using green, black, white, and subtle gradients
+
+When a user uploads an image:
+1. The image should preview immediately
+2. AI loading animation should appear
+3. System should analyze image
+4. Results should appear like an AI response
+
+The prediction output must display:
+- Disease name
+- Confidence score out of 100%
+- Severity level
+- Treatment recommendation
+- Prevention advice
+- Healthy/Unhealthy status
+
+The confidence score must be visually beautiful using:
+- Animated progress bars
+- Circular percentage indicators
+- Smooth transitions
+- Modern dashboard styling
+
+Example output style:
+
+Disease Detected:
+Tomato Early Blight
+
+AI Confidence:
+97.4%
+
+Severity:
+Moderate
+
+Recommended Treatment:
+Apply copper fungicide and remove infected leaves.
+
+Prevention:
+Avoid overwatering and rotate crops regularly.
+
+The app must use:
+- TensorFlow
+- Keras
+- CNN image classification
+- PlantVillage dataset
+- Python backend
+- Streamlit frontend OR React frontend depending on best implementation inside Replit
+
+The app must support:
+- Tomato diseases
+- Potato diseases
+- Maize diseases
+- Coffee diseases
+- Banana diseases
+- Healthy plant detection
+
+Generate:
+- Full frontend code
+- Full backend code
+- TensorFlow integration
+- Image preprocessing pipeline
+- Prediction pipeline
+- Upload system
+- Modern UI styling
+- Custom CSS
+- Animations
+- Responsive design
+- AI result rendering
+- Error handling
+- Mobile responsiveness
+
+The app should visually resemble modern AI products like:
+- ChatGPT
+- Perplexity AI
+- Claude AI
+- Modern SaaS dashboards
+
+Generate:
+- Beautiful homepage UI
+- Upload component
+- AI loading screen
+- Detection results page
+- Animated confidence score section
+- Prediction cards
+- Recommendation cards
+- Footer section
+- Sidebar if needed
+
+The application should prioritize:
+- Simplicity
+- Speed
+- Visual beauty
+- User friendliness
+- Mobile responsiveness
+- Real-world usability
+
+Generate complete Replit-compatible project structure.
+
+Generate:
+- requirements.txt
+- app.py
+- model loading code
+- TensorFlow prediction code
+- Streamlit setup
+- CSS styling files
+- Utility functions
+- Dataset handling scripts
+
+The AI prediction must:
+- Accept uploaded image
+- Resize image properly
+- Normalize image
+- Run prediction
+- Return disease probabilities
+- Display highest confidence prediction
+- Convert probabilities into percentage score
+
+Generate code for:
+- Confidence calculation
+- Accuracy display
+- Probability visualization
+- Result formatting
+
+The interface must feel premium and futuristic.
+
+Use:
+- Rounded modern containers
+- Shadows
+- Gradient highlights
+- Soft transitions
+- AI-inspired design language
+
+Add:
+- Loading spinner during AI analysis
+- “Analyzing crop image...” animation
+- “AI model processing...” status text
+- Smooth fade-in results
+
+Generate:
+- Modern typography
+- Professional spacing
+- Beautiful layout hierarchy
+
+The app should work smoothly inside Replit without requiring complicated setup.
+
+Generate:
+- Full setup instructions
+- How to run in Replit
+- How to install dependencies
+- How to upload trained model
+- How to test predictions
+
+The code must be:
+- Beginner-friendly
+- Fully commented
+- Production-quality
+- Modular
+- Clean architecture
+
+Whenever generating code:
+- Explain every section
+- Explain every function
+- Explain how frontend connects to backend
+- Explain how TensorFlow model is loaded
+- Explain how prediction works
+
+The final result should feel like a real AI startup product and not a school prototype.
+
+Generate the entire application step-by-step from scratch with detailed explanations and complete code.

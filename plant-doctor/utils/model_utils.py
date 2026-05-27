@@ -1,16 +1,16 @@
-"""TensorFlow model loading and inference utilities."""
-import os
+"""TensorFlow/Keras model inference utilities."""
 import numpy as np
 from PIL import Image
 
 
-def preprocess_image(image: Image.Image, target_size: tuple[int, int] = (224, 224)) -> np.ndarray:
-    img = image.convert("RGB").resize(target_size)
+def preprocess(image: Image.Image, size: tuple[int, int] = (224, 224)) -> np.ndarray:
+    """Resize, convert RGB, normalise to [0,1], add batch dim."""
+    img = image.convert("RGB").resize(size, Image.LANCZOS)
     arr = np.array(img, dtype=np.float32) / 255.0
     return np.expand_dims(arr, axis=0)
 
 
-def get_input_size(model) -> tuple[int, int]:
+def input_size(model) -> tuple[int, int]:
     try:
         _, h, w, _ = model.input_shape
         return (int(w or 224), int(h or 224))
@@ -18,30 +18,28 @@ def get_input_size(model) -> tuple[int, int]:
         return (224, 224)
 
 
-def run_inference(model, image: Image.Image) -> tuple[int, float, list[float]]:
-    """Returns (top_class_index, confidence_0_to_100, all_probs_list)."""
-    size = get_input_size(model)
-    arr = preprocess_image(image, size)
-    preds = model.predict(arr, verbose=0)[0]
-    top_idx = int(np.argmax(preds))
-    confidence = float(preds[top_idx]) * 100
-    return top_idx, confidence, preds.tolist()
+def predict(model, image: Image.Image) -> tuple[int, float, list[float]]:
+    """Returns (top_class_idx, confidence_pct, all_probs_list)."""
+    size  = input_size(model)
+    arr   = preprocess(image, size)
+    probs = model.predict(arr, verbose=0)[0]
+    idx   = int(np.argmax(probs))
+    conf  = float(probs[idx]) * 100
+    return idx, conf, probs.tolist()
 
 
-def invert_class_indices(class_indices: dict) -> dict:
-    """Convert {class_name: idx} → {str(idx): class_name}."""
+def invert_labels(class_indices: dict) -> dict:
+    """class_indices.json: {name: idx} → {str(idx): name}."""
     return {str(v): k for k, v in class_indices.items()}
 
 
-def format_label(raw: str) -> tuple[str, str]:
+def parse_label(raw: str) -> tuple[str, str]:
     """
-    Turn 'Tomato___Leaf_Miner' → ('Tomato', 'Leaf Miner')
+    'Tomato___Early_Blight' → ('Tomato', 'Early Blight')
     Returns (crop, disease).
     """
     if "___" in raw:
         crop, disease = raw.split("___", 1)
     else:
-        crop, disease = "Unknown", raw
-    disease = disease.replace("_", " ").strip().title()
-    crop = crop.replace("_", " ").strip().title()
-    return crop, disease
+        crop, disease = "Plant", raw
+    return crop.replace("_", " ").title(), disease.replace("_", " ").title()
