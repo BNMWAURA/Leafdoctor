@@ -1,0 +1,328 @@
+You are a senior AI product engineer and elite mobile UX designer.
+
+Upgrade my AI agriculture app into a REAL production-grade farming assistant platform.
+
+The app already has:
+- AI disease detection
+- image upload
+- camera capture
+- prediction results
+
+Your task is to generate ALL missing production-level features that make the app feel like a REAL agritech startup product for African farmers.
+
+IMPORTANT:
+Do NOT destroy the current app.
+Do NOT redesign everything from scratch.
+ONLY enhance and upgrade the existing app professionally.
+
+==================================================
+MISSION
+==================================================
+
+Transform the app from:
+“basic AI demo”
+into:
+“real AI farming product”
+
+The app must feel:
+- intelligent
+- trustworthy
+- mobile-first
+- farmer-friendly
+- modern
+- emotionally reassuring
+- premium quality
+
+==================================================
+ADD THESE MISSING FEATURES
+==================================================
+
+--------------------------------------------------
+1. AI TRUST & EXPLANATION SYSTEM
+--------------------------------------------------
+
+After prediction, explain:
+
+- why AI chose the disease
+- visible symptoms detected
+- confidence explanation
+- urgency level
+
+Example:
+
+"AI detected brown lesions, yellow edges,
+and fungal spotting patterns."
+
+Add:
+- confidence bars
+- AI reasoning cards
+- visual indicators
+
+--------------------------------------------------
+2. BAD IMAGE QUALITY DETECTION
+--------------------------------------------------
+
+Detect:
+- blurry images
+- dark images
+- low-resolution photos
+- wrong crop photos
+- multiple leaves
+
+Show helpful messages:
+
+"Please retake photo in better lighting."
+
+Add:
+- image quality scoring
+- lighting detection
+- blur detection
+
+--------------------------------------------------
+3. AI SCAN VISUALIZATION ENGINE
+--------------------------------------------------
+
+Make the AI feel real.
+
+Generate:
+- scanning animations
+- infected region highlights
+- glowing lesion areas
+- AI heatmap overlays
+- futuristic scan lines
+
+The result should look like:
+a real medical AI scanner.
+
+--------------------------------------------------
+4. ADVANCED RESULT SCREEN
+--------------------------------------------------
+
+Upgrade prediction results with:
+
+- disease name
+- confidence score
+- severity level
+- disease explanation
+- treatment recommendations
+- prevention methods
+- spread risk
+- urgency alerts
+- medicine recommendations
+- healthy plant celebration mode
+
+Use:
+- premium cards
+- animated progress bars
+- warning colors
+- glassmorphism
+
+--------------------------------------------------
+5. FARMER HISTORY SYSTEM
+--------------------------------------------------
+
+Add prediction history.
+
+Store:
+- disease name
+- date/time
+- crop type
+- confidence
+- image preview
+
+Show:
+- recent scans
+- repeated disease alerts
+- disease trends
+
+Use local storage/session state initially.
+
+--------------------------------------------------
+6. SMART RISK ENGINE
+--------------------------------------------------
+
+Generate:
+- spread risk analysis
+- humidity risk warnings
+- infection severity analysis
+- crop loss warnings
+
+Example:
+
+"High humidity may increase fungal spread this week."
+
+--------------------------------------------------
+7. REAL MOBILE APP EXPERIENCE
+--------------------------------------------------
+
+Make the app behave like WhatsApp.
+
+Use:
+- bottom navigation bar
+- smooth panel switching
+- floating action buttons
+- touch-friendly UI
+- persistent navigation tabs
+
+Tabs:
+- Home
+- Scan
+- History
+- Assistant
+- Profile
+
+IMPORTANT:
+No messy sidebar navigation.
+
+--------------------------------------------------
+8. AI ANALYSIS FLOW
+--------------------------------------------------
+
+Before showing results, display realistic AI processing:
+
+"Analyzing leaf texture..."
+"Detecting disease patterns..."
+"Comparing with AI database..."
+"Generating treatment plan..."
+
+Add:
+- animated loaders
+- smooth transitions
+- AI scanning visuals
+
+--------------------------------------------------
+9. MULTILINGUAL SUPPORT
+--------------------------------------------------
+
+Add:
+- English
+- Swahili
+
+Make UI easy for African farmers.
+
+Add:
+- simple wording
+- large readable text
+- farmer-friendly explanations
+
+--------------------------------------------------
+10. VOICE FEATURES
+--------------------------------------------------
+
+Generate:
+- text-to-speech
+- voice guidance
+- audio reading of recommendations
+
+Add:
+"Listen in Swahili"
+
+IMPORTANT:
+Support low-literacy users.
+
+--------------------------------------------------
+11. FARMER EDUCATION CENTER
+--------------------------------------------------
+
+Create:
+- disease library
+- prevention guides
+- crop care tips
+- seasonal farming advice
+
+Use:
+- simple explanations
+- icons
+- clean cards
+
+--------------------------------------------------
+12. REALISTIC AI DASHBOARD
+--------------------------------------------------
+
+Generate:
+- disease frequency charts
+- crop health analytics
+- recent scan summaries
+- risk overview cards
+
+Use:
+- modern charts
+- animated statistics
+- futuristic dashboard style
+
+--------------------------------------------------
+13. PREMIUM DESIGN SYSTEM
+--------------------------------------------------
+
+The app must feel:
+- futuristic
+- premium
+- smooth
+- intelligent
+
+Use:
+- glassmorphism
+- green gradients
+- soft shadows
+- glowing effects
+- animated cards
+- smooth transitions
+- Tesla-style dark UI
+- fintech-level polish
+
+Design inspiration:
+- ChatGPT
+- WhatsApp
+- Tesla dashboard
+- modern fintech apps
+
+--------------------------------------------------
+14. PERFORMANCE OPTIMIZATION
+--------------------------------------------------
+
+Optimize for:
+- low-end Android phones
+- slow internet
+- compressed images
+- fast loading
+- lightweight inference
+
+--------------------------------------------------
+15. TECHNICAL REQUIREMENTS
+--------------------------------------------------
+
+Use:
+- Streamlit
+- Custom CSS
+- HTML animations
+- Session state
+- TensorFlow/Keras
+- PIL
+- NumPy
+
+The app must:
+- remain clean
+- remain modular
+- remain responsive
+- remain easy to maintain
+
+==================================================
+FINAL GOAL
+==================================================
+
+The final app should feel like:
+
+“A real AI doctor for crops used by farmers across Africa.”
+
+Users should feel:
+
+✓ this app understands farming
+✓ this AI feels intelligent
+✓ this app feels trustworthy
+✓ this app feels modern
+✓ this app can help save crops
+
+Generate COMPLETE WORKING CODE.
+Avoid placeholders.
+Avoid fake/demo implementations.
+Prioritize realism, usability, and premium mobile UX.

@@ -1,0 +1,147 @@
+Convert the entire app UI into a REAL mobile-app style interface similar to WhatsApp and modern Android apps.
+
+IMPORTANT:
+The app currently behaves like a normal Streamlit webpage.
+
+I want:
+- native-app feeling
+- swipe gestures
+- sliding panels
+- smooth transitions
+- mobile navigation experience
+
+==================================================
+NAVIGATION REQUIREMENTS
+==================================================
+
+Implement REAL APP-LIKE NAVIGATION.
+
+Users must be able to:
+
+✓ Swipe LEFT and RIGHT between panels
+✓ Smoothly switch screens
+✓ Use bottom navigation tabs
+✓ Navigate like WhatsApp/Telegram
+✓ Experience animated page transitions
+
+The navigation should feel like:
+- WhatsApp
+- Instagram
+- TikTok
+- modern Android apps
+
+NOT like:
+- normal Streamlit pages
+- static dashboards
+- sidebars
+
+==================================================
+MAIN PANELS
+==================================================
+
+1. HOME
+2. SCAN
+3. HISTORY
+4. AI ASSISTANT
+5. PROFILE
+
+Users should:
+- tap tabs
+- swipe horizontally
+- transition smoothly
+
+==================================================
+SWIPE FEATURES
+==================================================
+
+Add:
+- touch swipe detection
+- horizontal slide animations
+- inertia/momentum transitions
+- smooth mobile gestures
+- animated page movement
+
+When user swipes:
+- panels should slide naturally
+- transitions should feel fluid
+- no page reload feeling
+
+==================================================
+BOTTOM NAVIGATION
+==================================================
+
+Create a floating bottom navigation bar like WhatsApp.
+
+Requirements:
+- rounded corners
+- floating effect
+- glassmorphism
+- active tab glow
+- animated icons
+- responsive design
+
+Icons:
+🏠 Home
+📷 Scan
+📜 History
+🤖 Assistant
+👤 Profile
+
+==================================================
+UI EXPERIENCE
+==================================================
+
+The app must feel:
+- like a native Android app
+- immersive
+- futuristic
+- touch optimized
+- fast
+- fluid
+
+Use:
+- mobile viewport optimization
+- full-screen layout
+- hidden Streamlit default styling
+- custom CSS animations
+- JavaScript gesture handling
+
+==================================================
+TRANSITIONS
+==================================================
+
+Add:
+- panel sliding
+- fade transitions
+- smooth animations
+- touch ripple effects
+- floating UI movement
+
+==================================================
+TECHNICAL IMPLEMENTATION
+==================================================
+
+Use:
+- Streamlit
+- custom CSS
+- HTML
+- JavaScript
+- session state navigation
+
+IMPORTANT:
+Inject custom JavaScript for:
+- swipe gesture detection
+- horizontal scrolling panels
+- animated transitions
+
+==================================================
+FINAL GOAL
+==================================================
+
+The app should no longer feel like:
+"a Streamlit website"
+
+It should feel like:
+"a real downloadable AI farming mobile application."
+
+The navigation experience should immediately remind users of WhatsApp.
