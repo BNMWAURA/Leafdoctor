@@ -1,15 +1,16 @@
 {
   "buildCommand": "pnpm run build",
   "outputDirectory": "artifacts/api-server/dist",
+  "nodeVersion": "20.x",
   "functions": {
-    "artifacts/api-server/dist/index.mjs": {
+    "dist/index.mjs": {
       "runtime": "nodejs20.x"
     }
   },
-  "routes": [
+  "rewrites": [
     {
-      "src": "/api/(.*)",
-      "dest": "artifacts/api-server/dist/index.mjs"
+      "source": "/(.*)",
+      "destination": "/dist/index.mjs"
     }
   ]
 }
