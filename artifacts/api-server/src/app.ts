@@ -1,12 +1,12 @@
 import express, { type Express } from "express";
 import cors from "cors";
-import * as pinoHttp from "pino-http";
+import pinoHttp from "pino-http";
 import router from "./routes";
 import { logger } from "./lib/logger";
 
 const app: Express = express();
 
-const loggerMiddleware = (pinoHttp as any).default({
+const loggerMiddleware = pinoHttp({
   logger,
   serializers: {
     req(req: any) {
@@ -30,5 +30,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.use("/api", router);
+
+app.get("/", (_req, res) => {
+  res.send("LeafDoctor API Running");
+});
 
 export default app;
