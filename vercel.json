@@ -1,15 +1,15 @@
 {
+  "version": 2,
   "buildCommand": "pnpm run build",
-  "outputDirectory": "dist",
   "functions": {
     "dist/index.mjs": {
       "runtime": "nodejs20.x"
     }
   },
-  "rewrites": [
+  "routes": [
     {
-      "source": "/(.*)",
-      "destination": "/dist/index.mjs"
+      "src": "/(.*)",
+      "dest": "dist/index.mjs"
     }
   ]
 }
