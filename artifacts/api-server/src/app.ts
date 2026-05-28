@@ -21,4 +21,7 @@ const loggerMiddleware = pinoHttp({
     },
   },
 });
+app.get("/", (req, res) => {
+  res.json({ status: "ok" });
+});
 export default app;
