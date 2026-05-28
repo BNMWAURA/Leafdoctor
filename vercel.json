@@ -1,6 +1,6 @@
 {
   "buildCommand": "pnpm run build",
-  "outputDirectory": "artifacts/api-server/dist",
+  "outputDirectory": "dist",
   "functions": {
     "dist/index.mjs": {
       "runtime": "nodejs20.x"
