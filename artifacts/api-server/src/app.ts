@@ -1,7 +1,7 @@
 import express, { type Express } from "express";
 import cors from "cors";
 import router from "./routes";
-import { logger } from "./lib/logger";
+import { logger } from "./lib/logger.js";
 const pinoHttp = require("pino-http");
 const app: Express = express();
 const loggerMiddleware = pinoHttp({
